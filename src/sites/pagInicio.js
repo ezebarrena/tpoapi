@@ -1,10 +1,22 @@
 import Intro from "../components/intro.js"
+import NavBar from "../layout/navBar.jsx"
 
 function pagInicio(){
     return(
-        <div>
-            <Intro />            
-        </div>
+        
+        
+        <body>
+
+            <header>
+                <div className="barra">
+                    <NavBar />                     
+                </div>
+            </header>
+            
+            <div className="pagina">
+                <Intro />
+            </div>
+        </body>
     );
 }
 
