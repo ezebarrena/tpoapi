@@ -1,25 +1,14 @@
-//import { content } from  "../Content.js";
-/*
-export default function datosPersonales() {
-    return (
-      <div>
-        <h1>Hola soy {profile.nombre}</h1>
-        <h2>actualmente {Profile.edad}</h2>
-      </div>
-    );
-  }
+function datosPersonales() {
+  return(
+      <datosPersonales>
+        <h2> Facundo Camilotto </h2> //Nombre
+        <h2> 23 años </h2> //edad
+        <h2> facundo@gmail.com </h2> //email
+        <h2> Caballito </h2> //localidad
+        <h2> 11-22334455 </h2> //telefono
 
+      </datosPersonales>
+  );
+}
 
-
-/*const Hero = () => {
-    const { hero } = content;
-
-    return (
-        <section id="home" className="overflow-hidden">
-        
-        
-    <h1 className="rotate-90 absolute top-[30%] right-[-15%] text-[#EAF2FA]">
-            {hero.firstName}{" "}
-            <span className="text-dark_primary">{hero.LastName}</span>
-          </h1>
-        */
+export default datosPersonales;
