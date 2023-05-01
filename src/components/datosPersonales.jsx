@@ -1,3 +1,5 @@
+import "../cssComponents/datosPersonales.css"
+
 function datosPersonales() {
     return(
         <datosPersonales>
