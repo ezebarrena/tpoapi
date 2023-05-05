@@ -4,11 +4,11 @@ import "../cssComponents/cssDiv.css"
 function estudios() {
     return(
         <header>
-            <div class="divTitulo">
-                <h1 class="titulo"> Estudios / Formacion </h1>
+            <div claclassNamess="divTitulo">
+                <h1 className="titulo"> Estudios / Formacion </h1>
             </div>
-            <div class="divContenido">
-                <h2 class="contenido">  </h2> //
+            <div className="divContenido">
+                <h2 className="contenido">  </h2> //
                 
             </div>
 
