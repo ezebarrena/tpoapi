@@ -1,20 +1,21 @@
-import "../cssComponents/datosPersonales.css"
+import "../cssComponents/cssData.css"
+import "../cssComponents/cssDiv.css"
+
 
 function datosPersonales() {
     return(
-        <datosPersonales>
-            <div class='titulo'>
-                <h1> Datos Personales </h1>
+        <header>
+            <div class="divTitulo">
+                <h1 class="titulo"> Datos Personales </h1>
             </div>
-            <div class='contenido'>
-                <h2> Facundo Camilotto </h2> //Nombre
-                <h2> 23 años </h2> //edad
-                <h2> facundo@gmail.com </h2> //email
-                <h2> Caballito </h2> //localidad
-                <h2> 11-22334455 </h2> //telefono
-            </div>
-
-        </datosPersonales>
+            <div class="divContenido">
+                <h2 class="contenido"> Facundo Camilotto </h2>    
+                <h2 class="contenido"> 23 años </h2>             
+                <h2 class="contenido"> facundo@gmail.com </h2>    
+                <h2 class="contenido"> Caballito </h2>            
+                <h2 class="contenido"> 11-22334455 </h2>         
+            </div> 
+        </header>
   );
 }
 

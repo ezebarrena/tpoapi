@@ -3,7 +3,9 @@ import Intro from "../components/intro.js"
 function pagInicio(){
     return(
         <div>
-            <Intro />            
+            <Intro />  
+            <datosPersonales />   
+            <estudios />       
         </div>
     );
 }
