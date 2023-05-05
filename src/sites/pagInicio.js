@@ -1,11 +1,11 @@
 import Intro from "../components/intro.js"
+import DatosPersonales from "../components/datosPersonales.jsx"
 
 function pagInicio(){
     return(
         <div>
             <Intro />  
-            <datosPersonales />   
-            <estudios />       
+            <DatosPersonales />        
         </div>
     );
 }
