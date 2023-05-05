@@ -1,9 +1,16 @@
 import React from 'react'
-
-const login = () => {
+import navBar from './navegation/navBar';
+const Login = () => {
+    
+    function volver(){
+        return(
+          window.location.href = '/'
+        )
+      }
   return (
     <div>
         <form>
+        <navBar />
             <div class="row mb-3">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
@@ -47,8 +54,9 @@ const login = () => {
             </div>
             <button type="submit" class="btn btn-primary">Sign in</button>
         </form>
+        <button onClick={volver} class="btn btn-primary" type="submit">Volver</button>
     </div>
   )
 }
 
-export default login
+export default Login;

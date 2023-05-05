@@ -1,7 +1,7 @@
 import Intro from "../components/intro.js"
 import NavBar from "../components/navegation/navBar.js"
 import LogIn from "../components/login.js"
-import { BrouserRouter as Router, Route, Routes} from 'react-router-dom'
+//import { BrouserRouter as Router, Route, Routes} from 'react-router-dom'
 
 function pagInicio(){
     return(
