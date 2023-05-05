@@ -1,0 +1,9 @@
+divTitulo{
+    padding: 500px 500px 500px 500px;
+    background-color: lightblue;
+    border: 1px solid black;
+}
+
+divContenido{
+    background-color: white;
+}
