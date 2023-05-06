@@ -1,5 +1,6 @@
 import "../cssComponents/cssCompStyles.css"
 
+
 function estudios() {
 
     return(
@@ -30,8 +31,6 @@ function estudios() {
                         </div>
                     </div>
                 </div>
-
-                <div class="SeparadorInf"></div>
 
             </div>
 

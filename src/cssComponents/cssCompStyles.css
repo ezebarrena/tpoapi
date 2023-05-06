@@ -55,3 +55,14 @@
     background: linear-gradient(#7e98ce, white);
 
 }
+
+.idiomasPill{
+    float: left;
+    margin: 10px;
+}
+
+.card{
+    background-color: white;
+    border-color: #003399;
+    margin: 8px;
+}
