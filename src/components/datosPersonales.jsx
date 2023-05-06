@@ -1,22 +1,48 @@
-import "../cssComponents/cssData.css"
-import "../cssComponents/cssDiv.css"
-
+import "../cssComponents/cssCompStyles.css"
+import Messi from "../pictures/Messi.png"
 
 function datosPersonales() {
+
     return(
-        <div>
-            <div className="divTitulo">
-                <h1 className="titulo"> Datos Personales </h1>
+
+        <div class="container">
+
+            <div>
+                <h1 class="Titulo"> Datos Personales </h1>
             </div>
-            <div className="divContenido">
-                <h2 className="contenido"> Facundo Camilotto </h2>    
-                <h2 className="contenido"> 23 años </h2>             
-                <h2 className="contenido"> facundo@gmail.com </h2>    
-                <h2 className="contenido"> Caballito </h2>            
-                <h2 className="contenido"> 11-22334455 </h2>         
-            </div> 
+
+            <div class="SeparadorSup"></div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <img src = {Messi} class="fotoDP"/>
+                </div>
+                <div class="col-md-4">
+                    <div class>
+                        <h2 class="refContenidoDP"> Nombre </h2>
+                        <h2 class="refContenidoDP"> Edad </h2>
+                        <h2 class="refContenidoDP"> Email </h2>
+                        <h2 class="refContenidoDP"> Localidad </h2>
+                        <h2 class="refContenidoDP"> Telefono </h2>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div>
+                        <h2 class="ContenidoDP"> Facundo Camilotto </h2>    
+                        <h2 class="ContenidoDP"> 23 años </h2>             
+                        <h2 class="ContenidoDP"> facundo@gmail.com </h2>    
+                        <h2 class="ContenidoDP"> Caballito </h2>            
+                        <h2 class="ContenidoDP"> 11-22334455 </h2> 
+                    </div>
+                </div>
+            </div>
+
+            <div class="SeparadorInf"></div>
+
         </div>
+
   );
+
 }
 
 export default datosPersonales;

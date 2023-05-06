@@ -1,0 +1,49 @@
+.Titulo{
+    text-align: left; 
+    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-weight: bold; 
+    font-size: 55px; 
+    color: #003399; 
+    text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+    text-align: center;
+
+    /*background-color:#acacac;*/
+    height: 100px;
+}
+
+
+.ContenidoDP{
+    font-size: 30px;
+    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    color: black;
+    font-weight: 500;
+    /*background-color: #aaa;*/
+    text-align: left;
+
+}
+
+.refContenidoDP{
+    font-size: 30px;
+    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-weight: 1000;
+    color: #003399;
+    text-align: right;
+    /*background-color: burlywood;*/
+}
+
+.SeparadorSup{
+    height: 20px;
+}
+
+.SeparadorInf{
+    height: 60px;
+}
+
+.fotoDP{
+    width: 200px;
+    float: right;
+}
+
+.boxEstudio{
+    background-color: #aaa;
+}

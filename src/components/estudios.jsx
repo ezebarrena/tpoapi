@@ -1,19 +1,34 @@
-import "../cssComponents/cssData.css"
-import "../cssComponents/cssDiv.css"
+import "../cssComponents/cssCompStyles.css"
 
 function estudios() {
+
     return(
-        <header>
-            <div claclassNamess="divTitulo">
-                <h1 className="titulo"> Estudios / Formacion </h1>
-            </div>
-            <div className="divContenido">
-                <h2 className="contenido">  </h2> //
+
+        <div class="col-md-12">
+
+            <div className="container">
+
+                <div>
+                    <h1 class="Titulo"> Estudios - Formacion </h1>
+                </div>  
+
+                <div class="SeparadorSup"></div>
+
+                <div class="boxEstudio">
+                        <h1>Prueba</h1>
+                </div>
+                <div class="boxEstudio">
+                    
+                </div>
                 
+                <div class="SeparadorInf"></div>
+
             </div>
 
-        </header>
+        </div>
+            
   );
+
 }
 
 export default estudios;
