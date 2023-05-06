@@ -8,22 +8,34 @@ function estudios() {
 
             <div className="container">
 
+                <div class="SeparadorSup"></div>
+
                 <div>
-                    <h1 class="Titulo"> Estudios - Formacion </h1>
+                    <h1 class="Titulo"> Estudios </h1>
                 </div>  
 
                 <div class="SeparadorSup"></div>
 
-                <div class="boxEstudio">
-                        <h1>Prueba</h1>
+                <div class="BoxEstudios">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="ContenidoE">Intitulo Madre del Buen Consejo</h2>
+                            <h5>Educacion nivel primaria y secundaria</h5>
+                            <p>1950-1970</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="ContenidoE">Universidad Argentina de la Empresa</h2>
+                            <h5>Ingeniera Informatica - Carrera de Grado</h5>
+                            <p>1950-1970</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="boxEstudio">
-                    
-                </div>
-                
+
                 <div class="SeparadorInf"></div>
 
             </div>
+
+            <div class="SeparadorInf"></div>
 
         </div>
             
