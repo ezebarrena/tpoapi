@@ -1,6 +1,7 @@
 import React from 'react'
-import navBar from './navegation/navBar';
-const Login = () => {
+import NavBar from "../components/navegation/navBar.js"
+
+function signIn (){
     
     function volver(){
         return(
@@ -9,8 +10,10 @@ const Login = () => {
       }
   return (
     <div>
+        <div className="barra">
+            <NavBar />                     
+        </div>
         <form>
-        <navBar />
             <div class="row mb-3">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
@@ -59,4 +62,4 @@ const Login = () => {
   )
 }
 
-export default Login;
+export default signIn;
