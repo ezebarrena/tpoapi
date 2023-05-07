@@ -9,7 +9,7 @@ function estudios() {
 
             <div className="container">
 
-                <div class="SeparadorSup"></div>
+                <div class="SeparadorSupDP"></div>
 
                 <div>
                     <h1 class="Titulo"> Estudios </h1>

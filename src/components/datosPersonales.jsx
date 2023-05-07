@@ -6,6 +6,8 @@ function datosPersonales() {
     return(
 
         <div class="container">
+            
+            <div class="SeparadorSupDP"></div>
 
             <div>
                 <h1 class="Titulo"> Datos Personales </h1>
@@ -15,30 +17,33 @@ function datosPersonales() {
             
             <div class="row">
 
-                <div className="col-md-2"></div>
+               
 
-                <div class="col-md-2 col-sm-4">
+                <div class="col-md-4 col-8">
                     <img src = {Messi} class="fotoDP"/>
                 </div>
 
-                <div class="col-md-8 col-sm-8">
+                <div class="col-md-8 col-12">
                     <div className="row">
-                        <div class="col-md-5 col-sm-6">
+                        <div class="col-md-5 col-6">
                             <div class>
                                 <h2 class="refContenidoDP"> Nombre </h2>
                                 <h2 class="refContenidoDP"> Edad </h2>
                                 <h2 class="refContenidoDP"> Email </h2>
                                 <h2 class="refContenidoDP"> Localidad </h2>
                                 <h2 class="refContenidoDP"> Telefono </h2>
+                                <h2 class="refContenidoDP"> Nacionalidad </h2>
                             </div>
                         </div>
-                        <div class="col-md-5 col-sm-6">
+                        <div class="col-md-5 col-6">
                             <div>
                                 <h2 class="ContenidoDP"> Facundo Camilotto </h2>    
                                 <h2 class="ContenidoDP"> 23 años </h2>             
                                 <h2 class="ContenidoDP"> facundo@gmail.com </h2>    
                                 <h2 class="ContenidoDP"> Caballito </h2>            
                                 <h2 class="ContenidoDP"> 11-22334455 </h2> 
+                                <h2 class="ContenidoDP"> Coreano </h2> 
+
                             </div>
                         </div>
                     </div>
@@ -46,7 +51,7 @@ function datosPersonales() {
 
             </div>
 
-            <div class="SeparadorInf"></div>
+            <div class="SeparadorSupDP"></div>
 
         </div>
 

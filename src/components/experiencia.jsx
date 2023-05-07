@@ -5,7 +5,7 @@ function experiencia(){
   return (
     <div className="col-md-12">
         <div className="container">
-            <div class="SeparadorSup"></div>
+            <div class="SeparadorSupDP"></div>
 
             <div>
                 <h1 class="Titulo"> Experiencia Laboral </h1>
@@ -25,6 +25,9 @@ function experiencia(){
                     
                 </div>
             </div>
+
+            <div class="SeparadorSup"></div>
+
         </div>
     </div>
   )
