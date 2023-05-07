@@ -1,5 +1,5 @@
 import "../cssComponents/cssCompStyles.css"
-import Prueba from "../pictures/prueba.png"
+import Prueba from "../assets/pictures/prueba.png"
 
 function idiomas_certificaciones(){
 

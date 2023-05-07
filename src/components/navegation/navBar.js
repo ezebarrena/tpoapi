@@ -12,7 +12,7 @@ const navBar = () => {
       }
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <nav id="navBar" className="navbar navbar-expand-lg navbar-dark bg-dark" >
             <div className="container-fluid">
                 <a className="navbar-brand" href="/">Mi Curriculum</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
