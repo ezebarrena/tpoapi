@@ -1,20 +1,18 @@
 import Intro from "../components/intro.js"
 import NavBar from "../components/navegation/navBar.js"
-import LogIn from "../components/login.js"
 import DatosPersonales from "../components/datosPersonales.jsx"
-//import { BrouserRouter as Router, Route, Routes} from 'react-router-dom'
 
 function pagInicio(){
     return(
         
         
-        <body>
+        <div>
 
-            <header>
-                <div className="barra">
-                    <NavBar />                     
-                </div>
-            </header>
+            
+            <div className="barra">
+                <NavBar />                     
+            </div>
+            
             
             <div className="pagina">
                 <Intro />
@@ -27,7 +25,7 @@ function pagInicio(){
                     ACA PONEMOS TODOS LOS COMPONENTES                
                  */}
             </div>
-        </body>
+        </div>
     );
 }
 
