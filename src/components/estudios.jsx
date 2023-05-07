@@ -1,19 +1,45 @@
-import "../cssComponents/cssData.css"
-import "../cssComponents/cssDiv.css"
+import "../cssComponents/cssCompStyles.css"
+
 
 function estudios() {
+
     return(
-        <header>
-            <div claclassNamess="divTitulo">
-                <h1 className="titulo"> Estudios / Formacion </h1>
-            </div>
-            <div className="divContenido">
-                <h2 className="contenido">  </h2> //
-                
+
+        <div class="col-md-12">
+
+            <div className="container">
+
+                <div class="SeparadorSup"></div>
+
+                <div>
+                    <h1 class="Titulo"> Estudios </h1>
+                </div>  
+
+                <div class="SeparadorSup"></div>
+
+                <div class="BoxEstudios">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="ContenidoE">Intitulo Madre del Buen Consejo</h2>
+                            <h5>Educacion nivel primaria y secundaria</h5>
+                            <p>1950-1970</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="ContenidoE">Universidad Argentina de la Empresa</h2>
+                            <h5>Ingeniera Informatica - Carrera de Grado</h5>
+                            <p>1950-1970</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
-        </header>
+            <div class="SeparadorInf"></div>
+
+        </div>
+            
   );
+
 }
 
 export default estudios;
