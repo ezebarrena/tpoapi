@@ -6,16 +6,20 @@ function idiomas_certificaciones(){
     return(
 
         <div className="container">
+
+            <h2 class="ContenidoE"> Idiomas </h2>
+
+            <div class="SeparadorInt"></div>
+
             <div className="row">
-                <div class="col-md-2">
-                    <h2 class="ContenidoE"> Idiomas </h2>
-                </div>
-                <div class="col-md-8">
-                        <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Ingles Avanzado </h4></span></div>
-                        <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Chino basico </h4></span></div>
-                        <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Frances Intermedio </h4></span></div>
+                <div class="col-md-11">
+                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Ingles Avanzado </h4></span></div>
+                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Chino basico </h4></span></div>
+                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Frances Intermedio </h4></span></div>
+                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Espa;ol nativo </h4></span></div>
                 </div>
             </div>
+
 
             <div class="SeparadorInf"></div>
 
@@ -60,7 +64,7 @@ function idiomas_certificaciones(){
                    
             </div>
 
-            <div class="SeparadorInf"></div>
+            <div class="SeparadorSupDP"></div>
             
         </div>
 

@@ -6,7 +6,7 @@ import Test from "../components/test.jsx"
 import Expe from "../components/experiencia.jsx"
 import IdiCert from "../components/idiomas_certificaciones.jsx"
 import Fortalezas from "../components/fortalezas.jsx"
-
+import Skills from "../components/skills.jsx"
 //import { BrouserRouter as Router, Route, Routes} from 'react-router-dom'
 
 
@@ -29,6 +29,7 @@ function pagInicio(){
                 <IdiCert/>
                 <Expe/>
                 <Fortalezas/>
+                <Skills/>
                 
                 {/* ACA PONEMOS TODOS LOS COMPONENTES
                     ACA PONEMOS TODOS LOS COMPONENTES

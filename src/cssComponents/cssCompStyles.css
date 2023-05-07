@@ -1,3 +1,4 @@
+
 .Titulo{
     text-align: left; 
     Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
@@ -35,12 +36,21 @@
     height: 40px;
 }
 
+.SeparadorSupDP{
+    height: 100px;
+}
+
 .SeparadorInf{
     height: 60px;
 }
 
+.SeparadorInt{
+    height: 30px;
+}
+
 .fotoDP{
     width: 200px;
+    margin-left: 50%;
 }
 
 .boxEstudio{
@@ -67,7 +77,7 @@
     margin: 8px;
 }
 .card:hover {
-    background-color: gray;
+    background-color: rgba(170, 170, 170, 0.233);
 }
 
 .linkEmpresa {
@@ -78,38 +88,58 @@
 }
 
 .presentacion {
-    background: linear-gradient(to right, #7e98ce, white);
+    background: linear-gradient(to bottom right, #7e98ce, white);
     height: 100vh;
 
 }
 
-.nombre {
+.titulo {
     color: #003399;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 50%;
+    font-size: 70px;
+    letter-spacing: .01em;
+    text-shadow: 
+      -1px -1px 1px #ffffff, 
+      2px 2px 1px #888787;
 }
 
 .subtitulo {
-    text-align: right;
-    
-    padding-top: 200px;
+    padding-top: 5%;
+    text-align: center;
+    color: white;
 }
 
-.descargaCV {
-    align-content: center;
-    
+.divBotones{
+    margin-top: 8%;
+    /*margin-left: 3%;*/
+    text-align: center;
+}
+
+
+.divImagenIntro{
+    display:flex;
+    justify-content: center;
 }
 
 .Foto{
-    width: 400px;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    width: 80%;
+    margin-top: 35%;
 }
 
 #navBar {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+}
+
+.logo {
+    width: 30px;
+}
+
+.card-text {
+    padding-left: 60px;
+}
+.card-title {
+    font-size: 30px;
 }
