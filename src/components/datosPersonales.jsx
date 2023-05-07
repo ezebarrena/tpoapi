@@ -1,5 +1,5 @@
 import "../cssComponents/cssCompStyles.css"
-import Messi from "../pictures/Messi.png"
+import Messi from "../assets/pictures/Messi.png"
 
 function datosPersonales() {
 

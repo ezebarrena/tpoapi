@@ -66,3 +66,50 @@
     border-color: #003399;
     margin: 8px;
 }
+.card:hover {
+    background-color: gray;
+}
+
+.linkEmpresa {
+    color: black;
+    font-weight: 300;
+    font-size: 35px;
+
+}
+
+.presentacion {
+    background: linear-gradient(to right, #7e98ce, white);
+    height: 100vh;
+
+}
+
+.nombre {
+    color: #003399;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.subtitulo {
+    text-align: right;
+    
+    padding-top: 200px;
+}
+
+.descargaCV {
+    align-content: center;
+    
+}
+
+.Foto{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+#navBar {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
