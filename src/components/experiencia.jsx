@@ -17,7 +17,7 @@ function experiencia(){
                 <div class="row">
                     <div class="col-md-6">
                         <h2 class="ContenidoE">Tecnico de Mesa de Ayuda</h2>
-                        <a className="linkEmpresa" href="https://www.zoologic.com.ar/">Zoologic</a>
+                        <a className="linkEmpresa" href="https://www.zoologic.com.ar/" target="_blank">Zoologic</a>
                         <p>1950-1970</p>
                         <p>Tecnico de Mesa de ayuda para el software Lince de la empresa Zoologic, donde atendia llamados de los diferentes clientes que tenian un problema o requerian una configuracion con el mismo</p>
                         
