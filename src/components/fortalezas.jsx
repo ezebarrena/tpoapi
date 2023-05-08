@@ -1,7 +1,9 @@
 function fortalezas () {
     return(
         <div className="container">
-             <h2 class="ContenidoE"> Fortalezas </h2>
+            <div class="SeparadorInt"></div>
+
+            <h2 class="ContenidoE"> Fortalezas </h2>
 
             <div class="SeparadorInt"></div>
 

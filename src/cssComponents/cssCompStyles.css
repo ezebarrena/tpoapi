@@ -33,11 +33,11 @@
 }
 
 .SeparadorSup{
-    height: 40px;
+    height: 30px;
 }
 
 .SeparadorSupDP{
-    height: 100px;
+    height: 80px;
 }
 
 .SeparadorInf{
@@ -45,7 +45,7 @@
 }
 
 .SeparadorInt{
-    height: 30px;
+    height: 25px;
 }
 
 .fotoDP{
@@ -61,7 +61,8 @@
     color: #003399; 
 }
 
-.col-md-12{
+
+.degradado{
     background: linear-gradient(#7e98ce, white);
 
 }
@@ -75,6 +76,7 @@
     background-color: white;
     border-color: #003399;
     margin: 8px;
+    margin-bottom: 15px;
 }
 .card:hover {
     background-color: rgba(170, 170, 170, 0.233);
@@ -83,7 +85,10 @@
 .linkEmpresa {
     color: black;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 25px;
+    padding-left: 40px;
+    float: left;
+    padding-right: 20px;
 
 }
 
@@ -93,12 +98,13 @@
 
 }
 
-.titulo {
+.tituloIntro {
     color: #003399;
     text-align: center;
+    font-weight: bold;
+    font-style:inherit;
     padding-top: 50%;
-    font-size: 70px;
-    letter-spacing: .01em;
+    font-size: 65px;
     text-shadow: 
       -1px -1px 1px #ffffff, 
       2px 2px 1px #888787;
@@ -116,6 +122,11 @@
     text-align: center;
 }
 
+.divBotonesFinal{
+    margin-top: 2%;
+    /*margin-left: 3%;*/
+    text-align: center;
+}
 
 .divImagenIntro{
     display:flex;
@@ -131,6 +142,8 @@
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
+    z-index: 10;
+    height: 60px;
 }
 
 .logo {
@@ -139,7 +152,43 @@
 
 .card-text {
     padding-left: 40px;
+    padding-bottom: 10px;
 }
+
+
 .card-title {
     font-size: 40px;
+}
+
+.card-title2{
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.contenedorFinal{
+    background-color: #3f3e3e;
+}
+
+.nombreFinal{
+    color: white;
+    text-align: center;
+}
+
+.botonFinal{
+    margin-top: 7%;
+    text-align: center;
+}
+
+.divTrabajo{
+   background-color: white;
+   margin-bottom: 30px;
+}
+
+.yearLaburo{
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 5px;
+    
 }
