@@ -11,7 +11,8 @@ import LogoSql from "../assets/logos/sqlLogo.png"
 function skills () {
     return (
         <div className="container">
-            <h2 class="ContenidoE">Skills</h2>
+            <div className="SeparadorSup"></div>
+            <h2 class="Titulo">Skills</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">

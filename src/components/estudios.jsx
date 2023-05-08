@@ -5,7 +5,7 @@ function estudios() {
 
     return(
 
-        <div class="col-md-12">
+        <div class="degradado">
 
             <div className="container">
 
@@ -37,6 +37,8 @@ function estudios() {
             <div class="SeparadorInf"></div>
 
         </div>
+
+        
             
   );
 

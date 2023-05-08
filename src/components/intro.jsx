@@ -11,7 +11,7 @@ function intro() {
                     <div className="row"> 
                         <div className="col-md-2"></div>
                         <div className="col-md-9">
-                            <h1 className="titulo">Hola! Soy Ezequiel</h1>
+                            <h1 className="tituloIntro">Hola! Soy Ezequiel</h1>
                             <h2 className="subtitulo">Estudiante de Ingeniería en Informática</h2>
                             
                             <div className="divBotones">

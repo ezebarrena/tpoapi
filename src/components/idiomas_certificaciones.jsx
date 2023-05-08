@@ -33,7 +33,7 @@ function idiomas_certificaciones(){
                         <img src = {Prueba}/>
                         <div class="card-body">
                             <h3>Certificacion</h3>
-                            <p class="card-text">detalles sobre la certificacin</p>
+                            <p>detalles sobre la certificacin</p>
                             <h5>Empresa</h5>
                             <h6>fecha de certificacion</h6>
                         </div>
@@ -44,7 +44,7 @@ function idiomas_certificaciones(){
                         <img src = {Prueba}/>
                         <div class="card-body">
                             <h3>Certificacion</h3>
-                            <p class="card-text">detalles sobre la certificacin</p>
+                            <p>detalles sobre la certificacin</p>
                             <h5>Empresa</h5>
                             <h6>fecha de certificacion</h6>
                         </div>
@@ -55,7 +55,7 @@ function idiomas_certificaciones(){
                         <img src = {Prueba}/>   
                         <div class="card-body">
                             <h3>Certificacion</h3>
-                            <p class="card-text">detalles sobre la certificacin</p>
+                            <p>detalles sobre la certificacin</p>
                             <h5>Empresa</h5>
                             <h6>fecha de certificacion</h6>
                         </div>
