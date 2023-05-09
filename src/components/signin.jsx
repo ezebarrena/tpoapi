@@ -1,5 +1,6 @@
 import React from 'react'
-import NavBar from "../components/navegation/navBar.js"
+import NavBar from "./navegation/navBar.js"
+import "../cssComponents/cssCompStyles.css"
 
 function signIn (){
     
@@ -9,12 +10,18 @@ function signIn (){
         )
       }
   return (
-    <div>
+    
+    <div className="container">
         <div className="barra">
             <NavBar />                     
         </div>
+
+
         <form>
-            <div class="row mb-3">
+            <div class="row mb-3"> 
+                <div className="SeparadorSupDP"></div>
+
+
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                     <div class="col-sm-10">
                         <input type="email" class="form-control" id="inputEmail3"></input>
@@ -27,6 +34,7 @@ function signIn (){
                         <input type="password" class="form-control" id="inputPassword3"></input>
                     </div>
             </div>
+
             <fieldset class="row mb-3">
                 <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
                     <div class="col-sm-10">
@@ -57,9 +65,53 @@ function signIn (){
             </div>
             <button type="submit" class="btn btn-primary">Sign in</button>
         </form>
+        
+        <div className="SeparadorSup"></div>
+
         <button onClick={volver} class="btn btn-primary" type="submit">Volver</button>
+
+        <div className="row">
+            <div className="col-md-3"></div>
+            <div className="col-md-6 col-12">
+                <div className="BoxSignIn">
+                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                        <div >
+                            <input type="email" class="form-control" id="inputEmail3"></input>
+                        </div>
+                    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                        <div>
+                            <input type="password" class="form-control" id="inputPassword3"></input>
+                        </div>
+
+                    <div className="SeparadorSup"></div>
+
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="boxSignInButtons">
+                                <button type="submit" class="btn btn-primary">Sign in</button>
+                            </div>
+                        </div>
+                        <div className="col-md-6">
+                            <div className="boxSignInButtons">
+                                <button onClick={volver} class="btn btn-primary" type="submit">Volver</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div className="col-md-3"></div>
+
+        </div>
+
+
+
     </div>
+    
+    
   )
+
 }
 
 export default signIn;
