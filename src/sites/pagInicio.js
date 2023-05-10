@@ -24,8 +24,8 @@ function pagInicio(){
             
             <div className="pagina">
                 <Intro />
-                <Skills/>
                 <DatosPersonales />
+                <Skills/>
                 <Estudios/>
                 <IdiCert/>
                 <Expe/>

@@ -22,19 +22,34 @@ const navBar = () => {
                     <ul className="navbar-nav mx-auto">
 
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">Inicio</a>
+                            <a className="nav-link active" aria-current="page" href="/">Info</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Info</a>
+                            <a className="nav-link">Skills</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Estudios</a>
+                            <a className="nav-link" href="#">Datos Personales</a>
                         </li>
 
+                        <li className="nav-item">
+                            <a className="nav-link">Estudios</a>
+                        </li>
                         <li className="nav-item">
                             <a className="nav-link">Experiencia</a>
+                        </li>
+
+                        
+
+                        <li className="nav-item">
+                            <a className="nav-link">Idiomas</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link">Certificaciones</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link">Fortalezas</a>
                         </li>
 
                     </ul>
