@@ -31,14 +31,6 @@ function pagInicio(){
                 <Expe/>
                 <Fortalezas/>
                 <Final/>
-                
-                {/* ACA PONEMOS TODOS LOS COMPONENTES
-                    ACA PONEMOS TODOS LOS COMPONENTES
-                    ACA PONEMOS TODOS LOS COMPONENTES
-                    ACA PONEMOS TODOS LOS COMPONENTES
-                    ACA PONEMOS TODOS LOS COMPONENTES
-                    ACA PONEMOS TODOS LOS COMPONENTES                
-                 */}
             </div>
         </div>
     );
