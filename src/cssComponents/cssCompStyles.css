@@ -12,6 +12,19 @@
     height: 100px;
 }
 
+.Titulo2{
+    text-align: left; 
+    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    font-weight: bold; 
+    font-size: 55px; 
+    color: #ffffff; 
+    /*text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);*/
+    text-align: center;
+
+    /*background-color:#acacac;*/
+    height: 100px;
+}
+
 
 .ContenidoDP{
     font-size: 30px;
@@ -79,7 +92,7 @@
     margin-bottom: 15px;
 }
 .card:hover {
-    background-color: rgba(170, 170, 170, 0.233);
+    background-color: #7e98ce;
 }
 
 .linkEmpresa {
@@ -201,5 +214,11 @@
 
 .boxSignInButtons{
     text-align: center;
+}
+
+.boxSkills{
+    /*background-color:#2f54a0;
+    background: linear-gradient(#2f54a0, #5c87dd);*/
+    background: linear-gradient(#2f54a0, #7e98ce);
 }
 
