@@ -83,17 +83,28 @@
 .idiomasPill{
     float: left;
     margin: 10px;
+    font-size: 250%;
+ 
+}
+
+.idiomasPill:hover{
+    
+  
 }
 
 .card{
     background-color: white;
-    border-color: #003399;
+    border-color: #011949;
     margin: 8px;
     margin-bottom: 15px;
 }
 .card:hover {
-    background-color: #7e98ce;
+    /*background-color: #a2a2a2;*/
+    /*background: linear-gradient(#b0afaf, #ffffff);*/
+    box-shadow: 0px 5px 20px 5px rgb(37, 36, 36);
+    transition: all 0.3s ease;
 }
+
 
 .linkEmpresa {
     color: black;
@@ -149,6 +160,13 @@
 .Foto{
     width: 80%;
     margin-top: 35%;
+}
+
+.Foto:hover{
+    width: 100%;
+    margin-top: 25%;
+    transition: all 0.5s ease;
+    
 }
 
 #navBar {
@@ -222,3 +240,22 @@
     background: linear-gradient(#2f54a0, #7e98ce);
 }
 
+.boton3 {
+    color: #2f54a0 !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: rgba(0,0,0,0);
+    border: 2px solid;
+    border-color: #2f54a0;
+    transition: all 1s ease;
+    position: relative;
+    border-radius: 20px;
+    float: left;
+    margin: 5px;
+  }
+  
+  .boton3:hover {
+    background: #2f54a0;
+    color: #fff !important;
+  }

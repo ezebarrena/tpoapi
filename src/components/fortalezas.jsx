@@ -9,14 +9,14 @@ function fortalezas () {
 
             <div className="row">
                 <div class="col-md-11">
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Trabajo en equipo </h4></span></div>
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Atento a los detalles </h4></span></div>
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Puntualidad </h4></span></div>
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Hincha de Boca </h4></span></div>
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> TEST </h4></span></div>
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> TEST </h4></span></div>
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> TEST </h4></span></div>
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> TEST </h4></span></div>
+                    <div class="idiomasPill"><button className="boton3">Trabajo en equipo </button></div>
+                    <div class="idiomasPill"><button className="boton3">Atento a los detalles </button></div>
+                    <div class="idiomasPill"><button className="boton3">Puntualidad </button></div>
+                    <div class="idiomasPill"><button className="boton3">Hincha de Boca </button></div>
+                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
+                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
+                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
+                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
 
                 </div>
             </div>
