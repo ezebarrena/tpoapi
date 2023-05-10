@@ -42,7 +42,8 @@ const navBar = () => {
                         </li>
 
                     </ul>
-                    <button onClick={signin} className="btn btn-outline-light" type="submit" >Contacto</button>
+                    <button onClick={signin} className="btn btn-outline-light" type="submit" >1</button>
+                    <button onClick={signin} className="btn btn-outline-light" type="submit" id="">2</button>
                     <form className="d-flex" role="search" >
                     </form>
                 </div>
