@@ -5,9 +5,9 @@ function estudios() {
 
     return(
 
-        <div class="degradado">
+        <div class="degradado" >
 
-            <div className="container">
+            <div className="container" id="est">
 
                 <div class="SeparadorSupDP"></div>
 

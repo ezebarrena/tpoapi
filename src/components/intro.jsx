@@ -3,7 +3,7 @@ import Foto from "../assets/pictures/Eze.png"
 
 function intro() {
     return(
-        <div className="presentacion" >
+        <div className="presentacion" id="intro">
         
             <div className="row">
 

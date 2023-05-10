@@ -10,9 +10,11 @@ import LogoSql from "../assets/logos/sqlLogo.png"
 
 function skills () {
     return (
-        <div className="container">
-            <div className="SeparadorSup"></div>
-            <h2 class="Titulo">Skills</h2>
+        
+        <div className="boxSkills" id="skills">
+          <div className="container">
+            <div className="SeparadorSupDP"></div>
+            <h2 class="Titulo2">Skills</h2>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
@@ -91,6 +93,10 @@ function skills () {
                     </div>
                 </div>
             </div>
+
+            <div class="SeparadorSup"></div>
+
+        </div>  
         </div>
     )
 }

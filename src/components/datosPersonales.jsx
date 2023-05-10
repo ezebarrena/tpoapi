@@ -5,7 +5,7 @@ function datosPersonales() {
 
     return(
 
-        <div class="container">
+        <div class="container" id="dp">
             
             <div class="SeparadorSupDP"></div>
 

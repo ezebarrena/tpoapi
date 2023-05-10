@@ -5,7 +5,7 @@ import Zoologic from "../assets/logos/zoo.png"
 function experiencia(){
   return (
     <div className="degradado">
-        <div className="container">
+        <div className="container" id="exp">
             <div class="SeparadorSupDP"></div>
 
             <div>

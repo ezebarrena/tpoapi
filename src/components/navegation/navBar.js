@@ -22,34 +22,23 @@ const navBar = () => {
                     <ul className="navbar-nav mx-auto">
 
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">Info</a>
+                            <a className="nav-link active" aria-current="page" href="#intro">Intro</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link">Skills</a>
+                            <a className="nav-link active" aria-current="page" href="#dp">Datos Personales</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#">Datos Personales</a>
+                            <a className="nav-link active" aria-current="page" href="#skills">Skills</a>
+                        </li>                     
+
+                        <li className="nav-item">
+                            <a className="nav-link active" aria-current="page" href="#est">Estudios</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link">Estudios</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link">Experiencia</a>
-                        </li>
-
-                        
-
-                        <li className="nav-item">
-                            <a className="nav-link">Idiomas</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link">Certificaciones</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link">Fortalezas</a>
+                            <a className="nav-link active" aria-current="page" href="#exp">Experiencia</a>
                         </li>
 
                     </ul>
