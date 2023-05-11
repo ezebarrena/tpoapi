@@ -9,7 +9,7 @@ function contacto () {
                 <div class="SeparadorSupDP"></div>
 
                 <div>
-    <               h1 class="Titulo"> Datos Personales </h1>
+    <               h1 class="Titulo"> Contacto </h1>
                 </div>
 
                 <div class="SeparadorSup"></div>
