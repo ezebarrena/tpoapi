@@ -41,7 +41,7 @@ function intro() {
                     </div> 
                 </div>
 
-                <div className="col-md-6 col-12">
+                <div className="col-md-6 col-sm-12 col-12">
                     <div className="row">
                         <div className="col-md-2"></div>
                         <div className="col-md-8">

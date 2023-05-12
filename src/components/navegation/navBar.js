@@ -15,6 +15,11 @@ const navBar = () => {
             window.location.href = '/contacto'
         )
     }
+    function admin(){
+        return(
+            window.location.href ='/admin'
+        )
+    }
   return (
     <div>
         <nav id="navBar" className="navbar navbar-expand-lg navbar-dark bg-dark" >
@@ -49,6 +54,7 @@ const navBar = () => {
                     </ul>
                     <button onClick={signin} className="btn btn-outline-light" type="submit" id="botonIn">SignIn</button>
                     <button onClick={contactar} className="btn btn-outline-light" type="submit" id="botonContacto">Contacto</button>
+                    <button onClick={admin} className="btn btn-outline-danger" type="submit" id="botonAdmin">Admin</button>
                     <form className="d-flex" role="search" >
                     </form>
                 </div>
