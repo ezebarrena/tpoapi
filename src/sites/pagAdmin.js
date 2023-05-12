@@ -1,7 +1,7 @@
 import NavBar from "../components/navegation/navBar.js"
-import Contacto from "../components/contacto.jsx"
+import Admin from "../components/admin.jsx"
 
-function pagContacto(){
+function pagAdmin(){
     return(
         
         <div>
@@ -12,7 +12,7 @@ function pagContacto(){
             
             
             <div className="pagina">
-                <Contacto />
+                <Admin />
             </div>
 
         </div>
@@ -20,4 +20,4 @@ function pagContacto(){
     );
 }
 
-export default pagContacto
+export default pagAdmin

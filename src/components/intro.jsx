@@ -3,7 +3,7 @@ import Foto from "../assets/pictures/Eze.png"
 
 function intro() {
     return(
-        <div className="presentacion" >
+        <div className="presentacion" id="intro">
         
             <div className="row">
 
@@ -11,7 +11,7 @@ function intro() {
                     <div className="row"> 
                         <div className="col-md-2"></div>
                         <div className="col-md-9">
-                            <h1 className="titulo">Hola! Soy Ezequiel</h1>
+                            <h1 className="tituloIntro">Hola! Soy Ezequiel</h1>
                             <h2 className="subtitulo">Estudiante de Ingeniería en Informática</h2>
                             
                             <div className="divBotones">
@@ -41,7 +41,7 @@ function intro() {
                     </div> 
                 </div>
 
-                <div className="col-md-6 col-12">
+                <div className="col-md-6 col-sm-12 col-12">
                     <div className="row">
                         <div className="col-md-2"></div>
                         <div className="col-md-8">

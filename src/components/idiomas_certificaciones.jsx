@@ -13,10 +13,10 @@ function idiomas_certificaciones(){
 
             <div className="row">
                 <div class="col-md-11">
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Ingles Avanzado </h4></span></div>
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Chino basico </h4></span></div>
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Frances Intermedio </h4></span></div>
-                    <div class="idiomasPill"><span class="badge rounded-pill text-bg-primary"><h4> Espa;ol nativo </h4></span></div>
+                    <div class="idiomasPill"><button className="boton3">Ingles Avanzado </button></div>
+                    <div class="idiomasPill"><button className="boton3">Chino basico </button></div>
+                    <div class="idiomasPill"><button className="boton3">Frances Intermedio </button></div>
+                    <div class="idiomasPill"><button className="boton3">Espa;ol nativo </button></div>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@ function idiomas_certificaciones(){
                         <img src = {Prueba}/>
                         <div class="card-body">
                             <h3>Certificacion</h3>
-                            <p class="card-text">detalles sobre la certificacin</p>
+                            <p>detalles sobre la certificacin</p>
                             <h5>Empresa</h5>
                             <h6>fecha de certificacion</h6>
                         </div>
@@ -44,7 +44,7 @@ function idiomas_certificaciones(){
                         <img src = {Prueba}/>
                         <div class="card-body">
                             <h3>Certificacion</h3>
-                            <p class="card-text">detalles sobre la certificacin</p>
+                            <p>detalles sobre la certificacin</p>
                             <h5>Empresa</h5>
                             <h6>fecha de certificacion</h6>
                         </div>
@@ -55,7 +55,7 @@ function idiomas_certificaciones(){
                         <img src = {Prueba}/>   
                         <div class="card-body">
                             <h3>Certificacion</h3>
-                            <p class="card-text">detalles sobre la certificacin</p>
+                            <p>detalles sobre la certificacin</p>
                             <h5>Empresa</h5>
                             <h6>fecha de certificacion</h6>
                         </div>
