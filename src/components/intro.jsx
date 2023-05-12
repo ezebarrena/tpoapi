@@ -1,5 +1,5 @@
 import "../cssComponents/cssCompStyles.css"
-import Foto from "../assets/pictures/Eze.png"
+import Foto from "../assets/pictures/principal.png"
 
 function intro() {
     return(
