@@ -61,6 +61,10 @@
     height: 25px;
 }
 
+.SeparadorSignIn{
+    height: 15px;
+}
+
 .fotoDP{
     width: 200px;
     margin-left: 50%;
@@ -224,14 +228,16 @@
     
 }
 
-#boxP {
+.BoxSignIn2 {
     background-color: white;
     padding: 2rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
 }
 
 .boxSignInButtons{
     text-align: center;
+    margin-top: 20px;
 }
 
 .boxSkills{
@@ -253,9 +259,52 @@
     border-radius: 20px;
     float: left;
     margin: 5px;
+}
+  
+.boton3:hover {
+    background: #2f54a0;
+    color: #fff !important;
+}
+
+
+.boton4 {
+    color: #2f54a0 !important;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: rgba(0,0,0,0);
+    border: 2px solid;
+    border-color: #2f54a0;
+    transition: all 1s ease;
+    position: relative;
+    border-radius: 20px;
+    float: center;
+    margin: 5px;
   }
   
-  .boton3:hover {
+  
+.boton4:hover {
     background: #2f54a0;
     color: #fff !important;
   }
+
+#botonIn {
+    width: 100px;
+    margin-right: 20px;
+}
+#botonContacto {
+    width: 100px;
+}
+
+.divSignIn{
+    height: 45%;
+}
+
+.boxSignIn {
+    /*background-color: #2f54a0;*/
+    background: linear-gradient(#2f54a0, white);
+}
+
+.boxTituloSignIn{
+    text-align: center;
+}
