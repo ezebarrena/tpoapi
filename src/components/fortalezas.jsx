@@ -12,12 +12,6 @@ function fortalezas () {
                     <div class="idiomasPill"><button className="boton3">Trabajo en equipo </button></div>
                     <div class="idiomasPill"><button className="boton3">Atento a los detalles </button></div>
                     <div class="idiomasPill"><button className="boton3">Puntualidad </button></div>
-                    <div class="idiomasPill"><button className="boton3">Hincha de Boca </button></div>
-                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
-                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
-                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
-                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
-
                 </div>
             </div>
 

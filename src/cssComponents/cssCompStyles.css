@@ -397,3 +397,7 @@
 .boxTabla{
     width: 100vh;
 }
+
+#fotoCert{
+    border-radius: 20px;
+}

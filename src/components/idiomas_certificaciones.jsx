@@ -13,10 +13,10 @@ function idiomas_certificaciones(){
 
             <div className="row">
                 <div class="col-md-11">
+                    <div class="idiomasPill"><button className="boton3">Español Nativo </button></div>
                     <div class="idiomasPill"><button className="boton3">Ingles Avanzado </button></div>
-                    <div class="idiomasPill"><button className="boton3">Chino basico </button></div>
-                    <div class="idiomasPill"><button className="boton3">Frances Intermedio </button></div>
-                    <div class="idiomasPill"><button className="boton3">Espa;ol nativo </button></div>
+                    <div class="idiomasPill"><button className="boton3">Frances Principiante </button></div>
+                    <div class="idiomasPill"><button className="boton3">Portugues Principiante </button></div>
                 </div>
             </div>
 
@@ -30,7 +30,7 @@ function idiomas_certificaciones(){
             <div className="row">
                 <div className="col-md-4">
                     <div class="card">
-                        <img src = {Prueba}/>
+                        <img id="fotoCert" src = {Prueba}/>
                         <div class="card-body">
                             <h3>Certificacion</h3>
                             <p>detalles sobre la certificacin</p>
@@ -41,7 +41,7 @@ function idiomas_certificaciones(){
                 </div>
                 <div className="col-md-4">
                     <div class="card">
-                        <img src = {Prueba}/>
+                        <img id="fotoCert" src = {Prueba}/>
                         <div class="card-body">
                             <h3>Certificacion</h3>
                             <p>detalles sobre la certificacin</p>
@@ -52,7 +52,7 @@ function idiomas_certificaciones(){
                 </div>
                 <div className="col-md-4">
                     <div class="card">  
-                        <img src = {Prueba}/>   
+                        <img id="fotoCert" src = {Prueba}/>   
                         <div class="card-body">
                             <h3>Certificacion</h3>
                             <p>detalles sobre la certificacin</p>

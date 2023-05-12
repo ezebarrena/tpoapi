@@ -20,14 +20,14 @@ function estudios() {
                 <div class="BoxEstudios">
                     <div class="row">
                         <div class="col-md-6">
-                            <h2 class="ContenidoE">Intitulo Madre del Buen Consejo</h2>
-                            <h5>Educacion nivel primaria y secundaria</h5>
-                            <p>1950-1970</p>
+                            <h2 class="ContenidoE">Riverside School</h2>
+                            <h5>Bachillerato con orientacion en sociales</h5>
+                            <p>2013 - 2018</p>
                         </div>
                         <div class="col-md-6">
                             <h2 class="ContenidoE">Universidad Argentina de la Empresa</h2>
                             <h5>Ingeniera Informatica - Carrera de Grado</h5>
-                            <p>1950-1970</p>
+                            <p>2019 - Presente</p>
                         </div>
                     </div>
                 </div>

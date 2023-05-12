@@ -37,12 +37,12 @@ function datosPersonales() {
                         </div>
                         <div class="col-md-5 col-6">
                             <div>
-                                <h2 class="ContenidoDP"> Facundo Camilotto </h2>    
-                                <h2 class="ContenidoDP"> 23 años </h2>             
-                                <h2 class="ContenidoDP"> facundo@gmail.com </h2>    
-                                <h2 class="ContenidoDP"> Caballito </h2>            
+                                <h2 class="ContenidoDP"> Ezequiel Barrena </h2>    
+                                <h2 class="ContenidoDP"> 22 años </h2>             
+                                <h2 class="ContenidoDP"> ezebarrena@gmail.com </h2>    
+                                <h2 class="ContenidoDP"> San Isidro </h2>            
                                 <h2 class="ContenidoDP"> 11-22334455 </h2> 
-                                <h2 class="ContenidoDP"> Coreano </h2> 
+                                <h2 class="ContenidoDP"> Argentino </h2> 
 
                             </div>
                         </div>
