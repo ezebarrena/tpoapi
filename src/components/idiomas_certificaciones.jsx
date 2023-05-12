@@ -1,5 +1,6 @@
 import "../cssComponents/cssCompStyles.css"
-import Prueba from "../assets/pictures/prueba.png"
+import uba from "../assets/logoCerts/uba.png"
+import accenture from "../assets/logoCerts/Accenture.png"
 
 function idiomas_certificaciones(){
 
@@ -30,34 +31,34 @@ function idiomas_certificaciones(){
             <div className="row">
                 <div className="col-md-4">
                     <div class="card">
-                        <img src = {Prueba}/>
+                        <img src = {accenture}/>
                         <div class="card-body">
-                            <h3>Certificacion</h3>
+                            <h3>Curso de Excel del programa ABC</h3>
                             <p>detalles sobre la certificacin</p>
-                            <h5>Empresa</h5>
-                            <h6>fecha de certificacion</h6>
+                            <h5>Accenture</h5>
+                            <h6>07/2019</h6>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div class="card">
-                        <img src = {Prueba}/>
+                        <img src = {uba}/>
                         <div class="card-body">
-                            <h3>Certificacion</h3>
+                            <h3>Curso de Python "Exactas Programa"</h3>
                             <p>detalles sobre la certificacin</p>
-                            <h5>Empresa</h5>
-                            <h6>fecha de certificacion</h6>
+                            <h5>UBA</h5>
+                            <h6>07/2019</h6>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div class="card">  
-                        <img src = {Prueba}/>   
+                        <img src = {accenture}/>   
                         <div class="card-body">
-                            <h3>Certificacion</h3>
+                            <h3>Curso de Word del programa ABC</h3>
                             <p>detalles sobre la certificacin</p>
-                            <h5>Empresa</h5>
-                            <h6>fecha de certificacion</h6>
+                            <h5>Accenture</h5>
+                            <h6>f07/2019</h6>
                         </div>
                     </div>
                 </div>
