@@ -294,13 +294,18 @@
 #botonIn {
     width: 100px;
     margin-right: 20px;
+    float: right;
 }
 #botonContacto {
     width: 100px;
     margin-right: 20px;
+    float: right;
 }
 #botonAdmin {
     width: 100px;
+    float: right;
+    margin-right: 20px;
+
 }
 
 .divSignIn{
@@ -396,4 +401,13 @@
 
 .boxTabla{
     width: 100vh;
+}
+
+.navbar-collapse {
+    background: #212529;
+    float: right !important; 
+}
+.nav-item {
+    text-align: right;
+    margin-left: 10px;
 }
