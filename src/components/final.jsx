@@ -14,7 +14,7 @@ function final(){
                 <div className="SeparadorSup"></div>
                     <div className="row">
                         <div className="col-md-4">
-                            <h5 className="nombreFinal"> Ezequiel, mi curriculum online</h5>
+                            <h5 className="nombreFinal"> Facundo, mi curriculum online</h5>
                             <h6 className="nombreFinal"> Contacta conmigo!</h6>
                         </div>
                         <div className="col-md-2">

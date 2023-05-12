@@ -66,8 +66,9 @@
 }
 
 .fotoDP{
-    width: 200px;
-    margin-left: 50%;
+    width: 320px;
+    /*margin-left: 40px;*/
+    margin-top: -5%;
 }
 
 .boxEstudio{
