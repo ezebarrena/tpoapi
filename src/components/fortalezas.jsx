@@ -10,13 +10,16 @@ function fortalezas () {
             <div className="row">
                 <div class="col-md-11">
                     <div class="idiomasPill"><button className="boton3">Trabajo en equipo </button></div>
-                    <div class="idiomasPill"><button className="boton3">Atento a los detalles </button></div>
+                    <div class="idiomasPill"><button className="boton3">Comprension de negocio y requerimientos</button></div>
                     <div class="idiomasPill"><button className="boton3">Puntualidad </button></div>
-                    <div class="idiomasPill"><button className="boton3">Hincha de Boca </button></div>
-                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
-                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
-                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
-                    <div class="idiomasPill"><button className="boton3">TEST </button></div>
+                    <div class="idiomasPill"><button className="boton3">Creativo </button></div>
+                    <div class="idiomasPill"><button className="boton3">Honestidad</button></div>
+                    <div class="idiomasPill"><button className="boton3">manejo de software </button></div>
+                    <div class="idiomasPill"><button className="boton3">Responsable </button></div>
+                    <div class="idiomasPill"><button className="boton3">Resolución de problemas </button></div>
+                    <div class="idiomasPill"><button className="boton3">Comunicación clara y precisa </button></div>
+                    <div class="idiomasPill"><button className="boton3">Resolución de problemas</button></div>
+                    <div class="idiomasPill"><button className="boton3"> Proactivo</button></div>
 
                 </div>
             </div>

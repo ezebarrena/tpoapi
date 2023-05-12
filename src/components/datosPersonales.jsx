@@ -39,10 +39,10 @@ function datosPersonales() {
                             <div>
                                 <h2 class="ContenidoDP"> Facundo Camilotto </h2>    
                                 <h2 class="ContenidoDP"> 23 años </h2>             
-                                <h2 class="ContenidoDP"> facundo@gmail.com </h2>    
-                                <h2 class="ContenidoDP"> Caballito </h2>            
-                                <h2 class="ContenidoDP"> 11-22334455 </h2> 
-                                <h2 class="ContenidoDP"> Coreano </h2> 
+                                <h2 class="ContenidoDP"> facucam@gmail.com </h2>    
+                                <h2 class="ContenidoDP"> Lomas del Mirador </h2>            
+                                <h2 class="ContenidoDP"> 11-3122-5717 </h2> 
+                                <h2 class="ContenidoDP"> argentino </h2> 
 
                             </div>
                         </div>
