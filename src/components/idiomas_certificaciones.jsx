@@ -1,5 +1,5 @@
 import "../cssComponents/cssCompStyles.css"
-import First from "../assets/logoCerts/first.png"
+import First from "../assets/logoCerts/first2.png"
 import SN from "../assets/logoCerts/servicenow.jpg"
 import ITIL from "../assets/logoCerts/itil.png"
 
@@ -34,7 +34,7 @@ function idiomas_certificaciones(){
                         <img src = {First} id="fotoCert"/>
                         <div class="card-body">
                             <h3>B2 First Certificate</h3>
-                            <p>First Certificate in english, universidad de Cambridge. Marco Común Europeo de Referencia para las lenguas.</p>
+                            <p>First Certificate in english, universidad de Cambridge. Marco Común Europeo.</p>
                             <h5>AACI</h5>
                             <h6>2018</h6>
                         </div>
@@ -44,7 +44,7 @@ function idiomas_certificaciones(){
                     <div class="card">
                         <img src = {SN} id="fotoCert"/>
                         <div class="card-body">
-                            <h3>Certified System Administrator</h3>
+                            <h3>Certified SysAdmin</h3>
                             <p>Administrador de sistemas certificado para la plataforma ServiceNow</p>
                             <h5>ServiceNow</h5>
                             <h6>2023</h6>
