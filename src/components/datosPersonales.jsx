@@ -1,5 +1,5 @@
 import "../cssComponents/cssCompStyles.css"
-import Messi from "../assets/pictures/Messi.png"
+import Perfil from "../assets/pictures/fotoDP.png"
 
 function datosPersonales() {
 
@@ -20,7 +20,14 @@ function datosPersonales() {
                
 
                 <div class="col-md-4 col-8">
-                    <img src = {Messi} class="fotoDP"/>
+                    <div className="row">
+                        <div className="col-md-4"></div>
+                        <div className="col-md-4">
+                            <img src = {Perfil} class="fotoDP"/>
+                        </div>
+                        <div className="col-md-4"></div>
+                    </div>
+                    
                 </div>
 
                 <div class="col-md-8 col-12">
@@ -39,10 +46,10 @@ function datosPersonales() {
                             <div>
                                 <h2 class="ContenidoDP"> Facundo Camilotto </h2>    
                                 <h2 class="ContenidoDP"> 23 años </h2>             
-                                <h2 class="ContenidoDP"> facundo@gmail.com </h2>    
-                                <h2 class="ContenidoDP"> Caballito </h2>            
-                                <h2 class="ContenidoDP"> 11-22334455 </h2> 
-                                <h2 class="ContenidoDP"> Coreano </h2> 
+                                <h2 class="ContenidoDP"> facucam@gmail.com </h2>    
+                                <h2 class="ContenidoDP"> Lomas del Mirador </h2>            
+                                <h2 class="ContenidoDP"> 11-3122-5717 </h2> 
+                                <h2 class="ContenidoDP"> argentino </h2> 
 
                             </div>
                         </div>
@@ -51,7 +58,7 @@ function datosPersonales() {
 
             </div>
 
-            <div class="SeparadorSupDP"></div>
+            <div class="SeparadorSup"></div>
 
         </div>
 

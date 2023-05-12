@@ -1,6 +1,8 @@
 import "../cssComponents/cssCompStyles.css"
-import uba from "../assets/logoCerts/uba.png"
-import accenture from "../assets/logoCerts/Accenture.png"
+import First from "../assets/logoCerts/first2.png"
+import SN from "../assets/logoCerts/servicenow.jpg"
+import ITIL from "../assets/logoCerts/itil.png"
+
 
 function idiomas_certificaciones(){
 
@@ -15,9 +17,7 @@ function idiomas_certificaciones(){
             <div className="row">
                 <div class="col-md-11">
                     <div class="idiomasPill"><button className="boton3">Ingles Avanzado </button></div>
-                    <div class="idiomasPill"><button className="boton3">Chino basico </button></div>
-                    <div class="idiomasPill"><button className="boton3">Frances Intermedio </button></div>
-                    <div class="idiomasPill"><button className="boton3">Espa;ol nativo </button></div>
+                    <div class="idiomasPill"><button className="boton3">Español nativo </button></div>
                 </div>
             </div>
 
@@ -31,34 +31,34 @@ function idiomas_certificaciones(){
             <div className="row">
                 <div className="col-md-4">
                     <div class="card">
-                        <img src = {accenture}/>
+                        <img src = {First} id="fotoCert"/>
                         <div class="card-body">
-                            <h3>Curso de Excel del programa ABC</h3>
-                            <p>detalles sobre la certificacin</p>
-                            <h5>Accenture</h5>
-                            <h6>07/2019</h6>
+                            <h3>B2 First Certificate</h3>
+                            <p>First Certificate in english, universidad de Cambridge. Marco Común Europeo.</p>
+                            <h5>AACI</h5>
+                            <h6>2018</h6>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div class="card">
-                        <img src = {uba}/>
+                        <img src = {SN} id="fotoCert"/>
                         <div class="card-body">
-                            <h3>Curso de Python "Exactas Programa"</h3>
-                            <p>detalles sobre la certificacin</p>
-                            <h5>UBA</h5>
-                            <h6>07/2019</h6>
+                            <h3>Certified SysAdmin</h3>
+                            <p>Administrador de sistemas certificado para la plataforma ServiceNow</p>
+                            <h5>ServiceNow</h5>
+                            <h6>2023</h6>
                         </div>
                     </div>
                 </div>
                 <div className="col-md-4">
                     <div class="card">  
-                        <img src = {accenture}/>   
+                        <img src = {ITIL} id="fotoCert"/>   
                         <div class="card-body">
-                            <h3>Curso de Word del programa ABC</h3>
-                            <p>detalles sobre la certificacin</p>
-                            <h5>Accenture</h5>
-                            <h6>f07/2019</h6>
+                            <h3>ITIL v4</h3>
+                            <p>Buenas practicas y procedimientos estandarisados para ITSM, Service Management</p>
+                            <h5>ITIL Fundation</h5>
+                            <h6>2023</h6>
                         </div>
                     </div>
                 </div>

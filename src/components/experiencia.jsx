@@ -1,6 +1,7 @@
 import React from 'react'
 import "../cssComponents/cssCompStyles.css"
-import Zoologic from "../assets/logos/zoo.png"
+import ITBA from "../assets/logos/itba2.png"
+import PWC from "../assets/logos/pwc.png"
 
 function experiencia(){
   return (
@@ -20,24 +21,25 @@ function experiencia(){
                         <div class="card">
                             <div class="card-body">
                                 <h6 class="card-title2">
-                                <img class="logo" src={Zoologic}></img>
-                                    Tecnico Mesa de Ayuda
+                                <img class="logo" src={ITBA}></img>
+                                    Analista mesa de ayuda
                                 </h6>
-                                <a className="linkEmpresa" href="https://www.zoologic.com.ar/" target="_blank">Zoologic</a>
-                                <h6 className="yearLaburo">1950-1970</h6>
-                                <p class="card-text">Tecnico de Mesa de ayuda para el software Lince de la empresa Zoologic, donde atendia llamados de los diferentes clientes que tenian un problema o requerian una configuracion con el mismo</p>
+                                <a className="linkEmpresa" href="https://www.itba.edu.ar/" target="_blank">ITBA</a>
+                                <h6 className="yearLaburo">2022</h6>
+                                <p class="card-text">Analista de Mesa de ayuda en Instituto Tecnologico de Buenos Aires. Se trabaja para docentes y alumnos de la institucion. Tareas de Help desk e incident management</p>
                             </div>
                         </div>
                         <div class="card">
                             <div class="card-body">
                                 <h6 class="card-title2">
-                                <img class="logo" src={Zoologic}></img>
-                                    Tecnico Mesa de Ayuda
+                                <img class="logo" src={PWC}></img>
+                                    ServiceNow developer - Advisory CD&E
                                 </h6>
-                                <a className="linkEmpresa" href="https://www.zoologic.com.ar/" target="_blank">Zoologic</a>
-                                <h6 className="yearLaburo">1950-1970</h6>
-                                <p class="card-text">Tecnico de Mesa de ayuda para el software Lince de la empresa Zoologic, donde atendia llamados de los diferentes clientes que tenian un problema o requerian una configuracion con el mismo</p>
+                                <a className="linkEmpresa" href="https://www.pwc.com.ar/" target="_blank">PwC</a>
+                                <h6 className="yearLaburo">2022 - actualidad</h6>
+                                <p class="card-text">SysAdmin y desarrollador en plataforma ServiceNow (aPaas) para la practica de consultoria en CyberDefence & Engineering para clientes de Estados Unidos y el resto del mundo. Back-End y Front-End. integraciones</p>
                             </div>
+                        
                         </div>
                         
                     </div>

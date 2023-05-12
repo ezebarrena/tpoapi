@@ -66,8 +66,9 @@
 }
 
 .fotoDP{
-    width: 200px;
-    margin-left: 50%;
+    width: 320px;
+    /*margin-left: 40px;*/
+    margin-top: -5%;
 }
 
 .boxEstudio{
@@ -164,8 +165,9 @@
 
 
 .Foto{
-    width: 80%;
-    margin-top: 35%;
+    width: 90%;
+    margin-top: 30%;
+
 }
 
 
@@ -410,4 +412,8 @@
 .nav-item {
     text-align: right;
     margin-left: 10px;
+}
+
+#fotoCert{
+    border-radius: 20px;
 }
