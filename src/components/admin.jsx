@@ -12,7 +12,7 @@ function admin () {
 
                     <div className="BoxAdmin">
                         <div>
-                            <h1 class="Titulo"> Bienvenido Admin </h1>
+                            <h1 class="Titulo">Panel Administrador</h1>
                         </div>
                         <div className="boxTabla">
                             <table class="table table-stripped">

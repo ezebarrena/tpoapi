@@ -1,19 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 import "../cssComponents/cssCompStyles.css"
-import {useNavigate} from 'react-router-dom'
 
-function SignIn (){
-    const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
-    const navigate = useNavigate();
-
+function signIn (){
+    
     function volver(){
         return(
           window.location.href = '/'
         )
       }
-    return (
-        
+  return (
     <div className="boxSignIn">
         <div className="container" id="cont">
 
@@ -24,17 +19,12 @@ function SignIn (){
                 <div className="BoxSignIn2">
 
                     <div className="boxTituloSignIn">
-                        <h4>Registrarse</h4>
+                        <h4 >Iniciar Sesión</h4>
                     </div>
 
-                    <label for="inputName3" class="col-md-12 col-form-label">Nombre y Apellido</label>
+                    <label for="inputName3" class="col-md-12 col-form-label">Email</label>
                     <div >
                         <input type="name" class="form-control" id="inputName3"></input>
-                    </div>
-                    
-                    <label for="inputEmail3" class="col-md-12 col-form-label">Email</label>
-                    <div >
-                        <input type="email" class="form-control" id="inputEmail3"></input>
                     </div>
                     
                     <label for="inputPassword3" class="col-md-12 col-form-label">Password</label>
@@ -42,15 +32,9 @@ function SignIn (){
                         <input type="password" class="form-control" id="inputPassword3"></input>
                     </div>
                     
-                    <label for="reInputPassword3" class="col-md-12 col-form-label">Repeat Password</label>
-                    <div>
-                        <input type="password" class="form-control" id="reInputPassword3"></input>
-                    </div>
-                    
                     <div className="SeparadorSignIn"></div>
-
                     <div>
-                        <a href='login'>Ya tienes cuenta? Inicia sesion aquí</a>
+                        <a href='signin'>No tienes cuenta? Registrate aquí</a>
                     </div>
 
                     <div className="SeparadorSignIn"></div>
@@ -63,7 +47,7 @@ function SignIn (){
                         </div>
                         <div className="col-md-6 col-6">
                             <div className="boxSignInButtons">
-                                <button type="submit" class="boton4">Sign in</button>
+                                <button type="submit" class="boton4">Log in</button>
                             </div>
                         </div>
                         
@@ -84,4 +68,4 @@ function SignIn (){
 
 }
 
-export default SignIn;
+export default signIn;
