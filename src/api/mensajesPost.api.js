@@ -1,20 +1,26 @@
-const postMensajes = async (token, setMensajes) => {
+const postMensajes = async (email, telefono, texto) => {
 
     var myHeaders = new Headers();
-    myHeaders.append("jwt",token);
     myHeaders.append("Content-Type","application/json");
+
+    var raw = JSON.stringify({
+        "email":email,
+        "telefono": telefono,
+        "texto": texto
+      });
 
     var requestOptions = {
         method: 'POST',
         headers: myHeaders,
+        body: raw,
         redirect: 'follow',
         mode:'cors'
     };
 
-    let response = await fetch("http://localhost:8080/mensajes/contactar", requestOptions);
+    let response = await fetch("http://localhost:8080/mensajes/contactar/", requestOptions);
     let jsonData = await response.json();
-    setMensajes(jsonData);
-    console.log(jsonData);
+    
+    return jsonData;   
 
 }
 

@@ -11,10 +11,13 @@ const getMensajes = async (token, setMensajes) => {
         mode:'cors'
     };
 
-    let response = await fetch("http://localhost:8080/mensajes/contactar", requestOptions);
+    let response = await fetch("http://localhost:8080/mensajes/contactar/", requestOptions);
     let jsonData = await response.json();
-    setMensajes(jsonData);
-    console.log(jsonData);
+
+    return jsonData;
+
+    //setMensajes(jsonData);
+    //console.log(jsonData);
 
 }
 
