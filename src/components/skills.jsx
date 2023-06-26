@@ -1,5 +1,5 @@
 import Prueba from "../assets/pictures/prueba.png"
-import "../cssComponents/cssCompStyles.css"
+import "../layout/cssCompStyles.css"
 import LogoGit from "../assets/logos/gitLogo.png"
 import LogoPy from "../assets/logos/pythonLogo.png"
 import LogoJava from "../assets/logos/javaLogo.png"

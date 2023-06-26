@@ -11,10 +11,11 @@ const login = async (email,password) => {
       method: 'POST',
       headers: myHeaders,
       body: raw,
-      redirect: 'follow'
+      redirect: 'follow',
+      mode: 'cors'
     };
     
-    let response = await fetch("http://localhost:8080/api/usuarios/login", requestOptions);
+    let response = await fetch("http://localhost:8080/usuarios/login/", requestOptions);
     let jsonData = await response.json();
 
     return jsonData;

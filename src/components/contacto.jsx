@@ -1,9 +1,22 @@
 import NavBar from "./navegation/navBar.js"
-import "../cssComponents/cssCompStyles.css"
+import "../layout/cssCompStyles.css"
+import { useState, useEffect } from "react";
+import getMensaje from "../api/mensajesGet.api"
 
-function contacto () {
+function Contacto () {
+
+    const accessToken = sessionStorage.getItem('access-token')
+    const [mensajes, setMensajes] = useState([]);
+    
+    setTimeout(function(){
+        window.location.reload();
+    }, 300000);
+
+    useEffect(() => {
+        getMensaje(accessToken,setMensajes);
+    }, [setMensajes,accessToken]);
+    
     return(
-
 
         <div className="bg">
                    <div className="row">
@@ -42,4 +55,4 @@ function contacto () {
     )
 } 
 
-export default contacto; 
+export default Contacto; 

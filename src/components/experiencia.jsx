@@ -1,5 +1,5 @@
 import React from 'react'
-import "../cssComponents/cssCompStyles.css"
+import "../layout/cssCompStyles.css"
 import ITBA from "../assets/logos/itba2.png"
 import PWC from "../assets/logos/pwc.png"
 

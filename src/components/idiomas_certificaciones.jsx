@@ -1,4 +1,4 @@
-import "../cssComponents/cssCompStyles.css"
+import "../layout/cssCompStyles.css"
 import First from "../assets/logoCerts/first2.png"
 import SN from "../assets/logoCerts/servicenow.jpg"
 import ITIL from "../assets/logoCerts/itil.png"

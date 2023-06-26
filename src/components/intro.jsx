@@ -1,4 +1,4 @@
-import "../cssComponents/cssCompStyles.css"
+import "../layout/cssCompStyles.css"
 import Foto from "../assets/pictures/principal.png"
 
 function intro() {

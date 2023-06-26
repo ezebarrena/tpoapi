@@ -1,4 +1,4 @@
-import "../cssComponents/cssCompStyles.css"
+import "../layout/cssCompStyles.css"
 
 function final(){
     function signin(){

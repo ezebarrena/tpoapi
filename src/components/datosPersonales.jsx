@@ -1,4 +1,4 @@
-import "../cssComponents/cssCompStyles.css"
+import "../layout/cssCompStyles.css"
 import Perfil from "../assets/pictures/fotoDP.png"
 
 function datosPersonales() {

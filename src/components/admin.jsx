@@ -1,5 +1,5 @@
 import NavBar from "./navegation/navBar.js"
-import "../cssComponents/cssCompStyles.css"
+import "../layout/cssCompStyles.css"
 
 function admin () {
     return(
