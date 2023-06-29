@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@400;600;700&family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
 
 .Titulo{
     text-align: left; 
@@ -40,7 +42,8 @@
     font-size: 27px;
     Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
     font-weight: 1000;
-    color: #003399;
+    /*color: #003399;*/
+    color: black;
     text-align: right;
     /*background-color: burlywood;*/
 }
@@ -156,15 +159,19 @@
 }
 
 .tituloIntro {
-    color: #003399;
+    /*color: #003399;*/
+    color: black;
     text-align: center;
     font-weight: bold;
     font-style:inherit;
-    font-family: 'Roboto', sans-serif;
-    font-size: 65px;
+    /*font-family: 'Abril Fatface', cursive;*/
+    font-family: 'Caveat', cursive;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-size: 80px;
+    /*font-size: 65px;*/
     text-shadow: 
-      -1px -1px 1px #ffffff, 
-      2px 2px 1px #888787;
+      1px 1px 1px #ffffff, 
+      2px 2px 1px #504f4f;
 }
 
 .boxIntro{
@@ -182,6 +189,9 @@
     padding-top: 5%;
     text-align: center;
     color: white;
+    text-shadow: 
+      1px 1px 1px #4b4a4a, 
+      2px 2px 1px #3f3f3f;
 }
 
 .divBotones{
@@ -368,7 +378,7 @@
 }
 
 .divAdmin{
-    height: 60%;
+    height:100px;
 }
 
 .boxSignIn {
@@ -450,6 +460,40 @@
     }
   }
 
+.bg3 {
+width: 100%;
+height: auto;
+
+background-size: 300% 300%;
+background-image: linear-gradient(-45deg, white 0%, white 25%, #7e98ce 51%, #2f54a0 100%);
+-webkit-animation: AnimateBG 15s ease infinite;
+        animation: AnimateBG 15s ease infinite;
+}
+
+@-webkit-keyframes AnimateBG {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+
+@keyframes AnimateBG {
+0% {
+    background-position: 0% 50%;
+}
+50% {
+    background-position: 100% 50%;
+}
+100% {
+    background-position: 0% 50%;
+}
+}
+
 .boxTabla{
     width: 100vh;
 
@@ -496,8 +540,12 @@
 }
 
 #campoCabezera{
-    padding-left: 20px;
+    /*padding-left: 20px;*/
     padding-bottom: 10px;
+}
+
+#campoFila{
+    /*padding-left: 20px;*/
 }
 
 .BoxAdmin{
@@ -506,4 +554,10 @@
 
 #fondo{
     
+}
+
+.filasTabla{
+    background-color: rgb(235, 235, 235);
+    height: auto;
+    border-color: black;
 }

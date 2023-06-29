@@ -34,9 +34,9 @@ function datosPersonales() {
                                 <h2 class="ContenidoDP"> Facundo Camilotto </h2>    
                                 <h2 class="ContenidoDP"> 23 años </h2>             
                                 <h2 class="ContenidoDP"> facucam@gmail.com </h2>    
-                                <h2 class="ContenidoDP"> Lomas del Mirador </h2>            
+                                <h2 class="ContenidoDP"> Gran Buenos Aires </h2>            
                                 <h2 class="ContenidoDP"> 11-3122-5717 </h2> 
-                                <h2 class="ContenidoDP"> argentino </h2> 
+                                <h2 class="ContenidoDP"> Argentina </h2> 
 
                             </div>
                         </div>

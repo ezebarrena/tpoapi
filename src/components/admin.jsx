@@ -66,12 +66,27 @@ function Admin () {
                                         <thead className="cabezeraTabla">
                                             <tr>
                                                 <th id="campoCabezera">Email</th>
-                                                <th id="campoCabezera">Telefono de contacto</th>
+                                                <th id="campoCabezera">Telefono</th>
                                                 <th id="campoCabezera">Mensaje</th>
                                             </tr>
                                         </thead>
-                                        <tbody>
+                                        <tbody className="filasTabla">
                                             {tablaMensajes}
+                                            <tr>
+                                                <th id="campoFila">facu@gmail.com</th>
+                                                <th id="campofila">11122233</th>
+                                                <th id="campofila">Tenemos una propuesta muy interesante para vos rey</th>
+                                            </tr>
+                                            <tr>
+                                                <th id="campoFila">facu@gmail.com</th>
+                                                <th id="campofila">11122233</th>
+                                                <th id="campofila"> Un signo de exclamación o signo de admiración​​ (¡ !) es una seña escrita que denota sorpresa, asombro, alegría, súplica, mandato, deseo, etc. Se escribe signo de admiración de apertura («¡») y signo de admiración de cierre («!») para indicar el principio y el final de una exclamación respectivamente.</th>
+                                            </tr>
+                                            <tr>
+                                                <th id="campoFila">facu@gmail.com</th>
+                                                <th id="campofila">11122233</th>
+                                                <th id="campofila"> Un signo de exclamación o signo de admiración​​ (¡ !) es una seña escrita que denota sorpresa, asombro, alegría, súplica, mandato, deseo, etc. Se escribe signo de admiración de apertura («¡») y signo de admiración de cierre («!») para indicar el principio y el final de una exclamación respectivamente.</th>
+                                            </tr>
                                         </tbody>
                                         
                                     </table>
