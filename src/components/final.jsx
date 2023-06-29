@@ -3,7 +3,7 @@ import "../layout/cssCompStyles.css"
 function final(){
     function signin(){
         return(
-            window.location.href = '/signin'
+            window.location.href = '/contacto'
         )
       }
     return(
