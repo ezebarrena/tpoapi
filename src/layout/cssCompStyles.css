@@ -191,9 +191,10 @@
 }
 
 .divBotonesFinal{
-    margin-top: 2%;
+    margin-top: 4%;
     /*margin-left: 3%;*/
     text-align: center;
+    margin-bottom: 1%;
 }
 
 .divImagenIntro{
@@ -259,11 +260,13 @@
 .nombreFinal{
     color: white;
     text-align: center;
+    margin-top: 1%;
 }
 
 .botonFinal{
-    margin-top: 7%;
+    margin-top: 2%;
     text-align: center;
+
 }
 
 .divTrabajo{
@@ -467,17 +470,18 @@
 }
 
 #btnFin{
-    width: 16vh;
-    height: 8vh;
-    background-color: white;
-    color: black;
+    width: 20vh;
+    height: 7vh;
+    background-color: #3f3e3e;
+    color: white;
     font-size: larger;
-    margin-left: 25%;
+    
 
 }
 #btnFin:hover{
-    background-color: #2f54a0;
+    background-color: white;
     border-color: black;
+    color: black;
     
 }
 

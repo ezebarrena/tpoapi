@@ -24,7 +24,7 @@ function idiomas_certificaciones(){
             </div>
 
 
-            <div class="SeparadorInf"></div>
+            <div class="SeparadorSupDP"></div>
 
             <h2 class="ContenidoE"> Certificaciones </h2>
 

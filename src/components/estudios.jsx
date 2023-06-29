@@ -34,7 +34,7 @@ function estudios() {
 
             </div>
 
-            <div class="SeparadorInf"></div>
+            <div class="SeparadorSupDP"></div>
 
         </div>
 
