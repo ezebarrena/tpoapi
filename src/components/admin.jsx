@@ -47,8 +47,8 @@ function Admin () {
     return(
         <div>
             <div className="row">
-                <div className="col md-3"></div>
-                <div className="col md-6">
+                <div className="col md-2"></div>
+                <div className="col md-8" id="fondo">
 
                     <div class="divAdmin"></div>
 
@@ -56,15 +56,18 @@ function Admin () {
                         <div>
                             <h1 class="Titulo">Panel Administrador</h1>
                         </div>
+                        <div>
+                            <p>Bienvenido administrador. Ultimos contactos recibidos</p>
+                        </div>
                         
                             <div className="boxTabla">
                                 
                                     <table class="table table-stripped">
-                                        <thead>
+                                        <thead className="cabezeraTabla">
                                             <tr>
-                                                <th>Email</th>
-                                                <th>Telefono de contacto</th>
-                                                <th>Mensaje</th>
+                                                <th id="campoCabezera">Email</th>
+                                                <th id="campoCabezera">Telefono de contacto</th>
+                                                <th id="campoCabezera">Mensaje</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -76,7 +79,7 @@ function Admin () {
                             </div>
                     </div>
                 </div>
-                <div className="col md-3"></div>
+                <div className="col md-2"></div>
             </div> 
         </div>
     )

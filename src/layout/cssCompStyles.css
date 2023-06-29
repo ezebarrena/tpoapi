@@ -365,7 +365,7 @@
 }
 
 .divAdmin{
-    height: 30%;
+    height: 60%;
 }
 
 .boxSignIn {
@@ -449,6 +449,7 @@
 
 .boxTabla{
     width: 100vh;
+
 }
 
 .navbar-collapse {
@@ -477,5 +478,28 @@
 #btnFin:hover{
     background-color: #2f54a0;
     border-color: black;
+    
+}
+
+.cabezeraTabla{
+    background-color: #2f54a0;
+    height: 50px;
+    width: 100%;
+    text-align: left;
+    color: white;
+    font-size: large;
+    
+}
+
+#campoCabezera{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.BoxAdmin{
+    
+}
+
+#fondo{
     
 }
