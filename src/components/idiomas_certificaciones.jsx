@@ -15,9 +15,11 @@ function idiomas_certificaciones(){
             <div class="SeparadorInt"></div>
 
             <div className="row">
-                <div class="col-md-11">
-                    <div class="idiomasPill"><button className="boton3">Ingles Avanzado </button></div>
-                    <div class="idiomasPill"><button className="boton3">Español nativo </button></div>
+                <div class="col-md-12" id="boxPills">
+                    <div class="boxPills">
+                        <div class="idiomasPill"><button className="boton3">Ingles Avanzado </button></div>
+                        <div class="idiomasPill"><button className="boton3">Español nativo </button></div>
+                    </div>
                 </div>
             </div>
 

@@ -7,32 +7,19 @@ function datosPersonales() {
 
         <div class="container" id="dp">
             
-            <div class="SeparadorSupDP"></div>
+            <div class="SeparadorInf"></div>
 
             <div>
-                <h1 class="Titulo"> Datos Personales </h1>
+                <h1 class="Titulo"> Datos personales </h1>
             </div>
 
-            <div class="SeparadorSup"></div>
+            <div class="SeparadorInt2"></div>
             
             <div class="row">
 
-               
-
-                <div class="col-md-4 col-8">
+                <div class="col-md-12 col-12">
                     <div className="row">
-                        <div className="col-md-4"></div>
-                        <div className="col-md-4">
-                            <img src = {Perfil} class="fotoDP"/>
-                        </div>
-                        <div className="col-md-4"></div>
-                    </div>
-                    
-                </div>
-
-                <div class="col-md-8 col-12">
-                    <div className="row">
-                        <div class="col-md-5 col-6">
+                        <div class="col-md-6 col-6">
                             <div class>
                                 <h2 class="refContenidoDP"> Nombre </h2>
                                 <h2 class="refContenidoDP"> Edad </h2>
@@ -42,7 +29,7 @@ function datosPersonales() {
                                 <h2 class="refContenidoDP"> Nacionalidad </h2>
                             </div>
                         </div>
-                        <div class="col-md-5 col-6">
+                        <div class="col-md-6 col-6">
                             <div>
                                 <h2 class="ContenidoDP"> Facundo Camilotto </h2>    
                                 <h2 class="ContenidoDP"> 23 años </h2>             
@@ -54,11 +41,13 @@ function datosPersonales() {
                             </div>
                         </div>
                     </div>
+                    
+                 
                 </div>
-
+    
             </div>
 
-            <div class="SeparadorSup"></div>
+            <div class="SeparadorInf"></div>
 
         </div>
 

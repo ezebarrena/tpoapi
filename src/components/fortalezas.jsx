@@ -8,7 +8,7 @@ function fortalezas () {
             <div class="SeparadorInt"></div>
 
             <div className="row">
-                <div class="col-md-11">
+                <div class="col-md-12" id="boxPills2">
                     <div class="idiomasPill"><button className="boton3">Trabajo en equipo </button></div>
                     <div class="idiomasPill"><button className="boton3">Comprension de negocio y requerimientos</button></div>
                     <div class="idiomasPill"><button className="boton3">Puntualidad </button></div>
