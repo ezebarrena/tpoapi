@@ -49,6 +49,22 @@ function datosPersonales() {
 
             <div class="SeparadorInf"></div>
 
+            <div class="row">
+
+                <div class="col-md-2 col-12">
+                </div>
+                <div class="col-md-8 col-12">
+                    <p id="textoDescripcion">
+                        Me llamo Facundo, siempre me apaciono el mundo de la Tecnologia y eso me impuso a estudiar la ingeniera en informatica. donde aprendi la mayoria de los conocimientos que hoy domino. Actualmente trabajando en una consultora Internacional. Hincha de Boca Juniors
+                    </p>
+                </div>
+                <div class="col-md-2 col-12">
+                </div>
+
+            </div>
+
+            <div class="SeparadorInf"></div>
+
         </div>
 
   );

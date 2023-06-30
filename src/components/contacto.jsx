@@ -13,13 +13,13 @@ const Contacto = () => {
     const [email, setEmail] = useState('');
     const [numero, setNumero] = useState('');
     const [texto, setTexto] = useState('');
-    const enviado = Boolean; //
+    
 
     const navigate = useHistory();
     
-    setTimeout(function(){
+    /* setTimeout(function(){
         window.location.reload();
-    }, 300000);
+    }, 300000); */
 
     
     const mostrarMensaje =()=>{ //
@@ -30,7 +30,7 @@ const Contacto = () => {
     }
 
     const handleSubmit = async (e) => {
-        enviado = true; //
+       
         console.log("PROBANDOOO 1")
         e.preventDefault();
         console.log("PROBANDOOO 2")
@@ -40,15 +40,18 @@ const Contacto = () => {
         console.log(response)
         console.log("Guardo el token en sessionStorage")
         sessionStorage.setItem("access-token",response.token);
-
-        navigate("/")
+        
+        if (response.status === 201){
+            alert("Contacto enviado correctamente")
+            window.location.reload();
+        }
     }
 
-    useEffect(() => { //
+    /* useEffect(() => { //
         if(enviado == true){
             mostrarMensaje();
         };
-    },[]);
+    },[]); */
     
 
     return(
@@ -62,12 +65,12 @@ const Contacto = () => {
 
                 <div className="BoxSignIn2">
                     <div>
-    <                   h1 class="Titulo"> Contacto </h1>
+                        <h1 class="Titulo"> Contacto </h1>
                     </div>
                         <form onSubmit={handleSubmit}>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
-                                <input type="string" class="form-control" id="exampleFormControlInput1" require value={nombre} onChange={(e) => setNombre(e.target.value)} placeholder="Juan Perez"></input>
+                                <input type="string" minlength="3" class="form-control" id="exampleFormControlInput1" require value={nombre} onChange={(e) => setNombre(e.target.value)} placeholder="Juan Perez"></input>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Casilla de correo</label>
@@ -75,11 +78,11 @@ const Contacto = () => {
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Numero telefonico</label>
-                                <input type="string" class="form-control" id="exampleFormControlInput1" require value={numero} onChange={(e) => setNumero(e.target.value)} placeholder="011-2453-2352"></input>
+                                <input type="string" minlength="3" class="form-control" id="exampleFormControlInput1" require value={numero} onChange={(e) => setNumero(e.target.value)} placeholder="011-2453-2352"></input>
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" require value={texto} onChange={(e) => setTexto(e.target.value)} rows="3"></textarea>
+                                <textarea minlength="3" class="form-control" id="exampleFormControlTextarea1" require value={texto} onChange={(e) => setTexto(e.target.value)} rows="3"></textarea>
                             </div>
                             <div className="boxSignInButtons">
                                 <button type="submit" class="boton4">Enviar mensaje</button>

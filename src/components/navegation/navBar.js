@@ -7,9 +7,9 @@ import { Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 */
 const navBar = () => {
 
-    function signin(){
+    function login(){
         return(
-            window.location.href = '/signin'
+            window.location.href = '/login'
         )
       }
     function contactar(){
@@ -34,29 +34,28 @@ const navBar = () => {
                     <ul className="navbar-nav mx-auto">
 
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#intro">Intro</a>
+                            <a className="nav-link active" aria-current="page" href="/#intro" target="http://localhost:3000">Introducción</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#dp">Datos Personales</a>
+                            <a className="nav-link active" aria-current="page" href="/#dp" target="http://localhost:3000">Datos Personales</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#skills">Skills</a>
+                            <a className="nav-link active" aria-current="page" href="/#skills" target="http://localhost:3000">Skills</a>
                         </li>                     
 
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#est">Estudios</a>
+                            <a className="nav-link active" aria-current="page" href="/#est" target="http://localhost:3000">Estudios</a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#exp">Experiencia</a>
+                            <a className="nav-link active" aria-current="page" href="/#exp" target="http://localhost:3000">Experiencia</a>
                         </li>
 
                     </ul>
-                    <button onClick={signin} className="btn btn-outline-light" type="submit" id="botonIn">SignIn</button>
                     <button onClick={contactar} className="btn btn-outline-light" type="submit" id="botonContacto">Contacto</button>
-                    <button onClick={admin} className="btn btn-outline-danger" type="submit" id="botonAdmin">Admin</button>
+                    <button onClick={login} className="btn btn-outline-light" type="submit" id="botonAdmin">Tools</button>
                     
                 </div>
             </div>

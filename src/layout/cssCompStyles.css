@@ -38,6 +38,15 @@
 
 }
 
+#textoDescripcion{
+    font-size: 27px;
+    Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+
+}
+
 .refContenidoDP{
     font-size: 27px;
     Font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
@@ -222,18 +231,18 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    padding-bottom:25%;
+    padding-bottom:28%;
 
 }
 
-/*
+
 .Foto:hover{
     width: 70%;
     
     transition: all 0.5s ease;
     
 }
-*/
+
 
 #navBar {
     position: fixed; /* Set the navbar to fixed position */

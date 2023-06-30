@@ -20,7 +20,7 @@ function estudios() {
                 <div class="BoxEstudios">
                     <div class="row">
                         <div class="col-md-6">
-                            <h2 class="ContenidoEstudio">Institulo Madre del Buen Consejo</h2>
+                            <h2 class="ContenidoEstudio">Instituto Madre del Buen Consejo</h2>
                             <h5>Educacion nivel primaria y secundaria</h5>
                             <p>2006 - 2017</p>
                         </div>

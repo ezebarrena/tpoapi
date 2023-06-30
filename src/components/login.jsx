@@ -16,17 +16,25 @@ const LogIn = () =>{
 
         let response = await logIn(email,password);
         console.log("PROBANDOOO 3")
-        console.log(response)
+        let resp = console.log(response)
         console.log("Guardo el token en sessionStorage")
         sessionStorage.setItem("access-token",response.token);
-        navigate("/")
+        //navigate("/")
+        if (response.status === 200) {
+            window.location.href = '/admin'
+        }
+        else {
+            alert("No tienes acceso a este sector")
+        }
+        //window.location.href = '/admin'
+
     }
 
     function volver(){
         return(
           window.location.href = '/'
         )
-      }
+    } 
 
   return (
     <div className="boxSignIn">
@@ -55,9 +63,9 @@ const LogIn = () =>{
                         
                         <div className="SeparadorSignIn"></div>
                         
-                        <div>
+                        {/* <div>
                             <a href='signin'>No tienes cuenta? Regístrate aquí</a>
-                        </div>
+                        </div> */}
 
                         <div className="SeparadorSignIn"></div>
 
@@ -69,7 +77,7 @@ const LogIn = () =>{
                             </div>
                             <div className="col-md-6 col-6">
                                 <div className="boxSignInButtons">
-                                    <button type="submit" class="boton4">Log in</button>
+                                    <button onClick={handleSubmit} type="submit" class="boton4">Log in</button>
                                 </div>
                             </div> 
                         </div>
