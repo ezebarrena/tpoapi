@@ -1,9 +1,7 @@
-const getMensajes = async (email, telefono, texto) => {
+const getMensajes = async (nombre,email, telefono, texto) => {
 
     var myHeaders = new Headers();
     myHeaders.append("Content-Type","application/json");
-
-    
 
     var requestOptions = {
         method: 'GET',

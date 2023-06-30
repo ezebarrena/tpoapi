@@ -1,9 +1,10 @@
-const postMensajes = async (email, telefono, texto) => {
+const postMensajes = async (nombre, email, telefono, texto) => {
 
     var myHeaders = new Headers();
     myHeaders.append("Content-Type","application/json");
 
     var raw = JSON.stringify({
+        "nombre":nombre,
         "email":email,
         "telefono": telefono,
         "texto": texto

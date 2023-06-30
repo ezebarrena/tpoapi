@@ -27,6 +27,7 @@ function Admin () {
         
         const filas = data.map(mensaje => (
             <tr key={mensaje.id}>
+                <td>{mensaje.nombre}</td>
                 <td>{mensaje.email}</td>
                 <td>{mensaje.telefono}</td>
                 <td>{mensaje.texto}</td>
@@ -47,8 +48,8 @@ function Admin () {
     return(
         <div>
             <div className="row">
-                <div className="col md-2"></div>
-                <div className="col md-8" id="fondo">
+                <div className="col md-1"></div>
+                <div className="col md-11" id="fondo">
 
                     <div class="divAdmin"></div>
 
@@ -65,6 +66,7 @@ function Admin () {
                                     <table class="table table-stripped">
                                         <thead className="cabezeraTabla">
                                             <tr>
+                                                <th id="campoCabezera">Nombre</th>
                                                 <th id="campoCabezera">Email</th>
                                                 <th id="campoCabezera">Telefono</th>
                                                 <th id="campoCabezera">Mensaje</th>
@@ -73,16 +75,19 @@ function Admin () {
                                         <tbody className="filasTabla">
                                             {tablaMensajes}
                                             <tr>
+                                                <th id="campoFila">Facundo Camilotto</th>
                                                 <th id="campoFila">facu@gmail.com</th>
                                                 <th id="campofila">11122233</th>
                                                 <th id="campofila">Tenemos una propuesta muy interesante para vos rey</th>
                                             </tr>
                                             <tr>
+                                                <th id="campoFila">Facu</th>
                                                 <th id="campoFila">facu@gmail.com</th>
                                                 <th id="campofila">11122233</th>
                                                 <th id="campofila"> Un signo de exclamación o signo de admiración​​ (¡ !) es una seña escrita que denota sorpresa, asombro, alegría, súplica, mandato, deseo, etc. Se escribe signo de admiración de apertura («¡») y signo de admiración de cierre («!») para indicar el principio y el final de una exclamación respectivamente.</th>
                                             </tr>
                                             <tr>
+                                                <th id="campoFila">Facu</th>
                                                 <th id="campoFila">facu@gmail.com</th>
                                                 <th id="campofila">11122233</th>
                                                 <th id="campofila"> Un signo de exclamación o signo de admiración​​ (¡ !) es una seña escrita que denota sorpresa, asombro, alegría, súplica, mandato, deseo, etc. Se escribe signo de admiración de apertura («¡») y signo de admiración de cierre («!») para indicar el principio y el final de una exclamación respectivamente.</th>
@@ -94,7 +99,7 @@ function Admin () {
                             </div>
                     </div>
                 </div>
-                <div className="col md-2"></div>
+                <div className="col md-1"></div>
             </div> 
         </div>
     )

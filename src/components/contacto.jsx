@@ -3,14 +3,17 @@ import "../layout/cssCompStyles.css"
 import { useHistory } from "react-router-dom";
 import React, {useState, useEffect} from 'react'
 import postMensaje from "../api/mensajesPost.api.js"
+import Swal from 'sweetalert2';
 
 const Contacto = () => {
 
     const accessToken = sessionStorage.getItem('access-token')
     //const [mensajes, setMensajes] = useState([]);
+    const [nombre, setNombre] = useState('');
     const [email, setEmail] = useState('');
     const [numero, setNumero] = useState('');
     const [texto, setTexto] = useState('');
+    const enviado = Boolean; //
 
     const navigate = useHistory();
     
@@ -18,24 +21,35 @@ const Contacto = () => {
         window.location.reload();
     }, 300000);
 
-    /*
-    useEffect(() => {
-        getMensaje(accessToken,setMensajes);
-    }, [setMensajes,accessToken]);
-    */
     
+    const mostrarMensaje =()=>{ //
+        Swal.fire({
+            icon: 'success',
+            title: 'mensaje enviado satisfactoriamente',
+          })
+    }
+
     const handleSubmit = async (e) => {
+        enviado = true; //
         console.log("PROBANDOOO 1")
         e.preventDefault();
         console.log("PROBANDOOO 2")
 
-        let response = await postMensaje(email,numero,texto);
+        let response = await postMensaje(nombre,email,numero,texto);
         console.log("PROBANDOOO 3")
         console.log(response)
         console.log("Guardo el token en sessionStorage")
         sessionStorage.setItem("access-token",response.token);
+
         navigate("/")
     }
+
+    useEffect(() => { //
+        if(enviado == true){
+            mostrarMensaje();
+        };
+    },[]);
+    
 
     return(
 
@@ -52,6 +66,10 @@ const Contacto = () => {
                     </div>
                         <form onSubmit={handleSubmit}>
                             <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Nombre y apellido</label>
+                                <input type="string" class="form-control" id="exampleFormControlInput1" require value={nombre} onChange={(e) => setNombre(e.target.value)} placeholder="Juan Perez"></input>
+                            </div>
+                            <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label">Casilla de correo</label>
                                 <input type="email" class="form-control" id="exampleFormControlInput1" require value={email} onChange={(e) => setEmail(e.target.value)} placeholder="nombre@ejemplo.com"></input>
                             </div>
@@ -66,6 +84,7 @@ const Contacto = () => {
                             <div className="boxSignInButtons">
                                 <button type="submit" class="boton4">Enviar mensaje</button>
                             </div>
+                                
                         </form>
                 </div>
 
